@@ -3,6 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-21.0.6-blue)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-blue)  
 ![Tomcat](https://img.shields.io/badge/Apache_Tomcat-10.1-red)  
+![JDBC](https://img.shields.io/badge/JDBC-4.3-blue)
 
 A pet project — a Telegram Web App for generating and securely storing passwords directly within the Telegram mini-app.
 
@@ -17,7 +18,8 @@ A pet project — a Telegram Web App for generating and securely storing passwor
 ## ⚙️ Tech Stack  
 
 - **Backend**: Pure Java Servlet (no Spring)  
-- **Frontend**: Telegram Web Apps (mini-app)  
+- **Frontend**: Telegram Web Apps (mini-app)
+- **Database Access**: JDBC (Java Database Connectivity) 
 - **Database**: PostgreSQL (see init script)
 - **Application Server**: Apache Tomcat 10.1  
 - **Language**: Java 21.0.6  
@@ -50,7 +52,8 @@ Currently not implemented:
 ## 🔧 Dependencies  
 
 Key dependencies:  
-- Jakarta Servlet API  
+- Jakarta Servlet API
+- JDBC Driver
 - JSTL (JavaServer Pages Standard Tag Library)  
 - Lombok (for reducing boilerplate code)  
 
