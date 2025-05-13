@@ -1,4 +1,3 @@
-
 # Telegram Password Manager (Web App)
 
 ![Java](https://img.shields.io/badge/Java-21.0.6-blue)  
@@ -60,7 +59,11 @@ For the full list of dependencies, see [pom.xml](pom.xml)
 ## 🎥 Video Demo
 
 Demonstration of the App in Action
-![Demo GIF](./demo.gif) 
+
+
+<img src="./demo.gif" alt="Demo GIF" width="30%" /> 
+
+
 The video shows:
 
     Full PIN code workflow (verification, changing)
